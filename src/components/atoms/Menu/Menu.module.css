@@ -1,0 +1,19 @@
+.menuContainer{
+    display: none;
+}
+.menu{
+    padding: 1rem 0.4rem;
+    width: 3rem;
+    border: 1px solid var(--primary-blue);
+    border-radius: 0.3rem;
+}
+.icon{
+    font-size: 2rem;
+    color: var(--primary-blue);
+}
+
+@media (max-width:994px) {
+    .menuContainer {
+       display: block;
+    }
+}

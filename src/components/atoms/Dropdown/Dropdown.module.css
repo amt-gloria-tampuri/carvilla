@@ -1,0 +1,11 @@
+.select{
+    outline: 0 !important;
+    box-shadow: none;
+    border: 1px solid #f8f8f8;
+    background: #f8f8f8;
+    height: 60px;
+    width: 100%;
+    padding: 6px 12px;
+    color: #888f9d;
+    text-transform: capitalize;
+}

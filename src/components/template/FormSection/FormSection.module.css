@@ -1,0 +1,32 @@
+.formSection{
+    padding: 40px ;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(38, 40, 64,0.2);
+    transform: translateY(-10rem);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.formSection form{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+@media (max-width:994px) {
+    .formSection{
+        flex-direction: column;
+        padding: 40px 20px;
+
+    }
+
+    .formSection form { 
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+}

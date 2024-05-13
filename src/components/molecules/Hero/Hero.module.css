@@ -1,0 +1,19 @@
+.hero{
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 40px;
+    color: var(--white);
+}
+
+.hero p{
+    color: var(--white);
+    font-size: 18px;
+    text-transform: initial;
+    color: #fff;
+    font-weight: 500;
+    max-width: 735px;
+    margin: 3rem auto 0;
+}

@@ -1,0 +1,13 @@
+.HeaderHero{
+    min-height: 120vh;
+    background-image: linear-gradient(60deg, rgba(42, 45, 84, .6), rgba(42, 45, 84, .6)), url('/src/assets/pexels-pixabay-257851.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media (max-width:994px) {
+    .HeaderHero{
+        background-position: center;
+    }
+}
