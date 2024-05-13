@@ -17,3 +17,10 @@
     max-width: 735px;
     margin: 3rem auto 0;
 }
+
+@media (max-width:994px) {
+    .hero{
+        padding: 15rem 1rem 0;
+
+    }
+}

@@ -1,0 +1,61 @@
+.benefits {
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 3rem;
+    color: #50616c;
+    text-align: center;
+   
+    place-items: center;
+}
+.card{
+    text-align: center;
+    padding: 55px 30px 60px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    border: 1px solid #dadfe9;
+    max-width: 350px;
+    transition: all 0.3s ease
+}
+
+.benefits .card h2{
+    text-transform: capitalize;
+    color: #444a57;
+    font-weight: 20px;
+    font-weight: 500;
+    margin: 1rem 0;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.benefits p{
+    color:#818998;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+.icon{
+    margin: 0 auto 3rem;
+    display: grid;
+    place-content: center;
+    transition: color 0.3s ease;
+}
+
+.line{
+    width: 2rem;
+    height: 3px;
+    background-color: var(--primary-blue);
+    margin: 2rem auto;
+}
+
+.card:hover{
+    background-color: var(--primary-blue);
+    color: var(--white);
+    box-shadow: 0 12px 30px 0 rgba(0, 1, 193, .2);
+    background: #4e4ffa;
+    border: 1px solid #4e4ffa;
+}
+
+.card:hover .line {
+    background-color: var(--white);
+  }
