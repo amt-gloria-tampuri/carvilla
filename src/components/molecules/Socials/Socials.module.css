@@ -1,0 +1,21 @@
+.socials{
+    width: 80%;
+    padding: 20px 0 17px;
+    border-top: 1px solid #434859;
+    margin: 0 auto;
+    color: #a8a9bf;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socials p{
+    color: #a8a9bf;  
+}
+
+.social{
+    display: flex;
+    gap: 1rem;
+}

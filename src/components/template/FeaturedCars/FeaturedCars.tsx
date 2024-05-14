@@ -94,7 +94,7 @@ const FeaturedCars = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.wrapper}>
       <NewestHead
         paragraph="Checkout the Featured Cars"
         header="Featured Cars"

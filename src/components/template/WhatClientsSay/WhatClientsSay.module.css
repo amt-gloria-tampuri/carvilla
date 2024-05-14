@@ -1,5 +1,27 @@
 .wrapper{
     background: #f8f9fb;
     padding: 112px 0 120px;
-    margin:3rem 0;
+    margin:2rem 0;
+}
+
+.wrapper h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.line{
+    width: 5rem;
+    height: 2px;
+    background-color: var(--primary-blue);
+    margin: 1rem auto;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 4rem 6rem ;
+    place-items: center;
 }

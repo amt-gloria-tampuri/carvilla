@@ -1,0 +1,8 @@
+.footer{
+    background-color: #2a2d54;
+}
+.contacts{
+    padding: 5rem 3rem;
+    display: flex;
+    gap: 5rem;
+}

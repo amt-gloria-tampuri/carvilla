@@ -1,0 +1,16 @@
+.devloon h2{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+.flex{
+    display: flex;
+    gap: 3rem;
+}
+.list p{
+    font-size: 14px;
+    color: #cfd0e3;
+    font-weight: 300;
+    padding-bottom: 13px;
+}

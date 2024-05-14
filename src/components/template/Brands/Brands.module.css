@@ -1,0 +1,16 @@
+.brand{
+
+}
+
+.gridContainer{
+    display: flex;
+    width: 80%;
+    margin: 5rem auto;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.gridContainer img{
+    width: 6rem;
+}

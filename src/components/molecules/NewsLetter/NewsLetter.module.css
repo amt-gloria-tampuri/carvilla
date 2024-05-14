@@ -1,0 +1,36 @@
+.newsletter h2{
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+
+.newsletter p{
+    font-size: 14px;
+    color: #cfd0e3;
+    font-weight: 300;
+    padding-bottom: 13px;
+    width: 80%;
+}
+
+.email{
+    display: flex;
+    color: #666c81;
+    background: #26294d;
+    padding: 15px 20px;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    border: 0;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.email input{
+    background-color: inherit;
+    border: 0;
+    outline:none;
+    font-size: 12px;
+    color: #666c81;
+    font-weight: 300;
+    width: 80%;
+}
