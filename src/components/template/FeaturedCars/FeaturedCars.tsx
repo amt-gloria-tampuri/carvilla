@@ -37,7 +37,7 @@ const FeaturedCars = () => {
       type: "automatic",
     },
     {
-      imagesrc: "/src/assets/fc3.png",
+      imagesrc: "/src/assets/fc4.png",
       name: "Audi A3 Sedan",
       price: "$99,250",
       description:
@@ -48,7 +48,7 @@ const FeaturedCars = () => {
       type: "automatic",
     },
     {
-      imagesrc: "/src/assets/fc1.png",
+      imagesrc: "/src/assets/fc4.png",
       name: "BMW 6-Series Gran Coupe",
       price: "$89,395",
       description:
@@ -59,7 +59,7 @@ const FeaturedCars = () => {
       type: "automatic",
     },
     {
-      imagesrc: "/src/assets/fc2.png",
+      imagesrc: "/src/assets/fc5.png",
       name: "Chevrolet Camaro WMV20",
       price: "$66,395",
       description:
@@ -70,7 +70,7 @@ const FeaturedCars = () => {
       type: "automatic",
     },
     {
-      imagesrc: "/src/assets/fc3.png",
+      imagesrc: "/src/assets/fc4.png",
       name: "Lamborghini V520",
       price: "$125,250",
       description:
@@ -81,7 +81,7 @@ const FeaturedCars = () => {
       type: "automatic",
     },
     {
-      imagesrc: "/src/assets/fc3.png",
+      imagesrc: "/src/assets/fc7.png",
       name: "Audi A3 Sedan",
       price: "$99,250",
       description:

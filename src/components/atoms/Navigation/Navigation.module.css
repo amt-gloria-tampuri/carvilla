@@ -19,6 +19,29 @@
     font-size: 1.05rem;
 }
 
+.active{
+    color: blue;
+}
+
+.navlist a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .navlist a:target {
+    color: blue;
+  }
+
+  /* Navigation.module.css */
+.navlist a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .navlist a.active {
+    color: blue;
+  }
+
 @media (max-width:994px) {
     .navlist {
         display: none;
