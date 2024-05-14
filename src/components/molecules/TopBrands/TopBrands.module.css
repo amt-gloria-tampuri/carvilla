@@ -14,3 +14,10 @@
     font-weight: 300;
     padding-bottom: 13px;
 }
+
+@media (max-width:640px) {
+    .flex{
+        width: 350px;
+        justify-content: space-between;
+    }
+}

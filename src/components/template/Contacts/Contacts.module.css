@@ -5,4 +5,5 @@
     padding: 5rem 3rem;
     display: flex;
     gap: 5rem;
+    flex-wrap: wrap;
 }
