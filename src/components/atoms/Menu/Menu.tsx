@@ -1,4 +1,3 @@
-// Menu.jsx
 import { useState } from 'react';
 import styles from './Menu.module.css';
 import { IoMenu } from "react-icons/io5";
@@ -13,7 +12,7 @@ const Menu = () => {
   };
 
   const handleMenuItemClick = () => {
-    setOpenMenu(false); // Close the menu when a menu item is clicked
+    setOpenMenu(false); 
   };
 
   return (
@@ -21,7 +20,7 @@ const Menu = () => {
       <div className={styles.menu}>
         {openMenu ? <IoCloseSharp className={styles.icon} onClick={handleMenuToggle} /> : <IoMenu onClick={handleMenuToggle} className={styles.icon} />}
       </div>
-      {openMenu && <MobileNav onItemClick={handleMenuItemClick} />} {/* Pass onItemClick handler */}
+      {openMenu && <MobileNav onItemClick={handleMenuItemClick} />} 
     </div>
   );
 };
